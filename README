@@ -1,0 +1,12 @@
+How to use:
+1) compile with cmake
+	Details:
+	1. go to directory with source code files
+	2. "mkdir build/;cd build"
+	3. "cmake ../"
+	4. make 
+2) launch ivi_server (it runs in daemon mode)
+3) place ivi_client.sh into the same directory as ivi_server
+	Details:
+	1. When you are in the build directory: "cp ../ivi_client.sh ./"
+4) launch ivi_client.sh with appropriate commands or './ivi_client.sh -h' to get help
